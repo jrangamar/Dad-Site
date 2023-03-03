@@ -1,0 +1,157 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 1vw;
+}
+.top-ul a{
+    text-decoration: none;
+    color: rgb(7, 7, 58)
+}
+.img img{
+    max-width: 200px;
+    height: 200px;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.top{
+    background-color: #FFFBE9;
+    flex: auto;
+    padding: 4% 16%;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.logo img{
+    width: 55%;
+    min-width: 100px;
+}
+.top-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 4%;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.signup p{
+    width: 75%;
+}
+.signup{
+    padding-bottom: 4%;
+    flex: 1;
+}
+.slider-wrapper{
+    max-width: 55%;
+    min-width: 240px;
+    margin: 0 auto;
+}
+.img-box{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-box img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.mid1{
+    background-color: #F4EAD5;
+    flex: 1;
+    padding: 6% 16%;
+    text-align: center;
+}
+.mid1-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex: auto;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card img{
+    background-color:#FFFBE9;
+}
+.mid2{
+    background-color: #DAE2B6;
+    flex: 1;
+    padding: 8% 24% 6% 24%;
+}
+.quote-area{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.quote{
+    font-size: larger;
+}
+.quoted{
+    text-align: right;
+    font-size: large;
+}
+.bottom{
+    background-color: #CCD6A6;
+    flex: 1;
+    padding: 4% 8%;
+    display: flex;
+    justify-content: center;
+}
+.signup-box{
+    background-color: #FFFBE9;
+    padding: 2% 8%;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button1, .button2{
+    width: 100px;
+    height: 20%;
+    background-color: #FFFBE9;
+    color: rgb(7, 7, 58);
+    border: 1px solid rgb(7, 7, 58);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button1:hover, .button2:hover{
+    width: 100px;
+    height: 20%;
+    background-color: #CCD6A6;
+    color: rgb(7, 7, 58);
+    border: 1px solid rgb(7, 7, 58);
+    border-radius: 15px;
+    cursor: pointer;
+}
